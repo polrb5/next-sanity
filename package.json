@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "fetch-i18n-languages": "node scripts/fetch-i18n-languages.js"
   },
   "dependencies": {
     "@sanity/ui": "^1.3.2",

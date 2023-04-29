@@ -1,4 +1,3 @@
-import { ReactElement, JSXElementConstructor, ReactFragment, ReactPortal } from 'react';
 import styles from './page.module.css'
 
 import { getLang, getPage } from "@/sanity/sanity-utils"
@@ -6,8 +5,6 @@ import { getLang, getPage } from "@/sanity/sanity-utils"
 export default async function Home() {
   const projects = await getPage('home', 'en');
   const langs = await getLang('language');
-  console.log('langs:', langs);
-  console.log('projects:', projects);
   
 
   return (

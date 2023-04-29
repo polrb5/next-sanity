@@ -8,7 +8,7 @@ const client = createClient({
   projectId: "4de3djlm",
   dataset: "production",
   apiVersion: "2023-04-24",
-  useCdn: false
+  useCdn: false,
 });
 
 const IMAGES_BASE_URL = 'https://cdn.sanity.io/images/kzz1g91o/smartlis';
