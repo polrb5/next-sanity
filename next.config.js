@@ -7,7 +7,7 @@ const nextConfig = {
     styledComponents: true,
   },
   i18n: {
-    locales: process.env.NEXT_PUBLIC_I18N_LOCALES.split(','),
+    locales: ['en', 'es'],
     defaultLocale: 'en',
     localeDetection: true,
   },
